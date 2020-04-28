@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4AF5BDF32457E6DF001F80AB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5BDF22457E6DF001F80AB /* main.swift */; };
+		4AF5BDFA2457E720001F80AB /* Resolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5BDF92457E720001F80AB /* Resolution.swift */; };
+		4AF5BDFC2457E749001F80AB /* VideoMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5BDFB2457E749001F80AB /* VideoMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		4AF5BDEF2457E6DF001F80AB /* Struct and Class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Struct and Class"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF5BDF22457E6DF001F80AB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4AF5BDF92457E720001F80AB /* Resolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolution.swift; sourceTree = "<group>"; };
+		4AF5BDFB2457E749001F80AB /* VideoMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				4AF5BDF22457E6DF001F80AB /* main.swift */,
+				4AF5BDF92457E720001F80AB /* Resolution.swift */,
+				4AF5BDFB2457E749001F80AB /* VideoMode.swift */,
 			);
 			path = "Struct and Class";
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF5BDF32457E6DF001F80AB /* main.swift in Sources */,
+				4AF5BDFA2457E720001F80AB /* Resolution.swift in Sources */,
+				4AF5BDFC2457E749001F80AB /* VideoMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

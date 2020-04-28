@@ -9,16 +9,16 @@
 import Foundation
 
 let someResolution = Resolution()
-let someVideoMode = VideoMode()
+//let someVideoMode = VideoMode()
 
 print("The width of someResolution is \(someResolution.width)")
-print("The width of someVideoMode is \(someVideoMode.resolution.width) \n")
+//print("The width of someVideoMode is \(someVideoMode.resolution.width) \n")
 
 ///
 
-someVideoMode.resolution.width = 1280
+//someVideoMode.resolution.width = 1280
 
-print("The width of someVideoMode is now \(someVideoMode.resolution.width) \n")
+//print("The width of someVideoMode is now \(someVideoMode.resolution.width) \n")
 
 ///
 
@@ -40,4 +40,29 @@ var rememberedDirection = currentDirection
 currentDirection.turnNorth()
 
 print("The current direction is \(currentDirection)")
-print("The remembered direction is \(rememberedDirection)")
+print("The remembered direction is \(rememberedDirection) \n")
+
+///
+
+var tenEighty = VideoMode(name: "1080i", frameRate: 25.0, interlaced: true, resolution: hd)
+
+//tenEighty.resolution = hd
+//tenEighty.interlaced = true
+//tenEighty.name = "1080i"
+//tenEighty.frameRate = 25.0
+
+let alsoTenEighty = tenEighty
+
+alsoTenEighty.frameRate = 30.0
+
+print("The frameRate property of tenEighty is now \(tenEighty.frameRate)")
+
+let fiveK = VideoMode(name: "5K", frameRate: 100.0, interlaced: true, resolution: hd)
+
+tenEighty = fiveK
+
+if tenEighty === fiveK {
+    print("tenEighty and fiveK refers to the same VideoMode instance.")
+} else {
+    print("tenEighty and fiveK is NOT refers to the same VideoMode instance.")
+}
